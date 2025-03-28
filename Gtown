@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Georgetown Revitalization Project</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #cfd8dc;
+    }
+
+    .viewer iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin: 2rem 0;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .timeline {
+      padding: 2rem;
+      background-color: #ffffff;
+    }
+
+    .timeline h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .scrolling-timeline {
+      display: flex;
+      overflow-x: auto;
+      gap: 1rem;
+      padding: 1rem;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .scrolling-timeline::-webkit-scrollbar {
+      display: none;
+    }
+
+    .event {
+      flex: 0 0 auto;
+      background-color: #e3f2fd;
+      padding: 1rem;
+      border-radius: 10px;
+      min-width: 200px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .contact {
+      background: #1e1e2f;
+      color: #fff;
+      padding: 2rem 1rem;
+    }
+
+    .contact h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .contact ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .contact li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Georgetown Revitalization Project</h1>
+    <p class="subtitle">Experience our vision with our interactive 3D model and project overview.</p>
+  </header>
+
+  <section class="viewer">
+    <iframe src="https://a360.co/4j6aKsz" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section class="timeline">
+    <h2>Project Timeline</h2>
+    <div class="scrolling-timeline">
+      <div class="event"><strong>Planning</strong><br>March 2025</div>
+      <div class="event"><strong>Approvals</strong><br>March 2025</div>
+      <div class="event"><strong>Beginning of Structural Work</strong><br>March 2025</div>
+      <div class="event"><strong>M Painting</strong><br>April 2025</div>
+      <div class="event"><strong>Landscaping</strong><br>May 2025</div>
+      <div class="event"><strong>Final Inspection</strong><br>June 2025</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <ul>
+      <li><strong>Project Manager:</strong> Matias Heredia</li>
+      <li><strong>Email:</strong> matias@kpmstockton.com</li>
+      <li><strong>Phone:</strong> (555) 123-4567</li>
+      <li><strong>Location:</strong> 4545 Georgetown Pl, Stockton, CA 95207</li>
+    </ul>
+  </section>
+</body>
+</html>
